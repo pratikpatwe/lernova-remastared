@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="w-full max-w-6xl mx-auto">
           <div className="rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
             <img
-              src="/screenshot.png"
+              src="/dashboard.gif"
               alt="Lernova LMS Dashboard"
               className="w-full h-auto"
             />
