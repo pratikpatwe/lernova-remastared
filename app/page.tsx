@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import FAQs from "@/components/faqs"
 import Footer from "@/components/footer"
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Header isScrolled={isScrolled} />
       <Hero />
+      <FAQs />
       <Footer />
     </main>
   )
